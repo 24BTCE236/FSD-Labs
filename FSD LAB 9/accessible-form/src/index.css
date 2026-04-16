@@ -1,0 +1,81 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #111827;
+  background: #f8fafc;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+main {
+  max-width: 540px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+}
+
+h1 {
+  margin-top: 0;
+  font-size: clamp(2rem, 2.5vw, 2.5rem);
+}
+
+.field-group {
+  margin-bottom: 1.25rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.65rem;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 3px solid #60a5fa;
+  outline-offset: 2px;
+}
+
+small {
+  display: block;
+  margin-top: 0.35rem;
+  color: #475569;
+}
+
+button {
+  padding: 0.9rem 1.25rem;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.error-message {
+  min-height: 1.4rem;
+  color: #dc2626;
+  margin-bottom: 1rem;
+}
